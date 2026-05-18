@@ -1,11 +1,11 @@
 import { useState } from 'react';
-
 function Footer () {
-    const [contador, setContador] = useState(0);
+    const añoActual= new Date().getFullYear();
+        
     return(
-        <div>
-            <h1>Tarjetas</h1>
-        </div>
+        <footer>
+            <p>&copy; {añoActual}-new year</p>
+        </footer>
     )
 }
 export default Footer;

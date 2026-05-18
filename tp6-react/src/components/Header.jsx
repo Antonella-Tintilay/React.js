@@ -1,7 +1,6 @@
 import { useState } from 'react';
 
 function Header () {
-    const [contador, setContador] = useState(0);
     return(
         <header>
             <h1>Ventas</h1>

@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
-function Card () {
-    const [contador, setContador] = useState(0);
-    return(
-        <div>
-            <h1>Tarjetas</h1>
-        </div>
-    )
+function Card({ titulo, descripcion }) {
+  return (
+    <div>
+      <h3>{titulo}</h3>
+      <p>{descripcion}</p>
+    </div>
+  );
 }
 export default Card;
