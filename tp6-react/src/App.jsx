@@ -4,12 +4,14 @@ import Footer from './components/Footer.jsx'
 import Header from './components/Header.jsx'
 import Contador from './components/Contador.jsx'
 import './App.css'
+import ContactForm from './components/ContactForm.jsx'
 
 function App() {
   return (
     <>
       <Header />
       <Contador/>
+      <ContactForm/>
       <div className="contenedor-cards">
         <Card titulo="Heladera No Frost"
             descripcion="Capacidad 300L, eficiencia energética A, enfriamiento uniforme"

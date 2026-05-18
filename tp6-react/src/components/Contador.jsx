@@ -16,7 +16,12 @@ function Contador() {
     const reiniciar = () => {
         setContador(0);
     };
-    const color = contador > 0 ? 'verde' : 'rojo';
+    let color;
+    if (contador>0){
+        color='verde';
+    }else{
+        color='rojo';
+    }
 
     return (
         <div className="contador">

@@ -107,6 +107,41 @@ button:disabled {
   cursor: not-allowed;
 }
 
+
+.contact-form-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+input, textarea {
+  padding: 8px;
+  margin-top: 5px;
+}
+button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:disabled {
+  background: #ccc;
+}
+.preview {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+
 footer {
   background-color: #0d5213;
   color: rgb(250, 255, 249);
