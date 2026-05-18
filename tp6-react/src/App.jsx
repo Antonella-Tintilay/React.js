@@ -2,12 +2,14 @@ import { useState } from 'react'
 import Card from './components/Card.jsx'
 import Footer from './components/Footer.jsx'
 import Header from './components/Header.jsx'
+import Contador from './components/Contador.jsx'
 import './App.css'
 
 function App() {
   return (
     <>
       <Header />
+      <Contador/>
       <div className="contenedor-cards">
         <Card titulo="Heladera No Frost"
             descripcion="Capacidad 300L, eficiencia energética A, enfriamiento uniforme"
