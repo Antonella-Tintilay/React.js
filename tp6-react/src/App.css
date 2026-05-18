@@ -142,6 +142,31 @@ button:disabled {
 }
 
 
+.product-list-container {
+  padding: 20px;
+}
+.filtros {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.productos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.btn-agotado {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.sin-productos {
+  text-align: center;
+  color: #999;
+}
+
+
 footer {
   background-color: #0d5213;
   color: rgb(250, 255, 249);

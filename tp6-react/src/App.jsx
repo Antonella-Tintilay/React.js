@@ -5,6 +5,7 @@ import Header from './components/Header.jsx'
 import Contador from './components/Contador.jsx'
 import './App.css'
 import ContactForm from './components/ContactForm.jsx'
+import ProductList from './components/ProductList.jsx'
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           imagen=""
           precio={100000}>
           <button className="btn-comprar">Compra ahora</button></Card>
+      <ProductList/>
 
       </div>
       <Footer />
