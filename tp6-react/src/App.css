@@ -1,4 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  background-color: #f5f5f5;
+  flex: 1;
+}
+
+.btn-comprar {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #2e7d32;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
 nav a {
     margin: 2rem;
     text-decoration: none;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 250px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.card-titulo {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.card-descripcion {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.card-precio {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2e7d32;
+  margin: 10px 0;
+}
+
+.card-children {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+footer {
+  background-color: #0d5213;
+  color: rgb(250, 255, 249);
+  text-align: center;
+  padding: 15px;
+  margin-top: auto;
 }
