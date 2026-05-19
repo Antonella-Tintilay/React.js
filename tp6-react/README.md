@@ -1,16 +1,24 @@
-# React + Vite
+# TP6 React - Aplicación completa con Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
+Trabajo práctico de React que incluye múltiples componentes interactivos:
+- Componentes base (Header, Footer, Card)
+- Contador con estado y colores dinámicos
+- Formulario de contacto con preview en vivo
+- Lista de productos con filtros por categoría y stock
+- Aplicación To-Do con CRUD de tareas
 
-Currently, two official plugins are available:
+## Tecnologías utilizadas
+- React
+- Vite
+- CSS moderno con variables globales
+- Git para control de versiones
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Instalación y ejecución
 
-## React Compiler
+- cd tp6-react
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- npm install
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Ejecutar en modo desarrollo
+npm run dev

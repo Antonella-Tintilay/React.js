@@ -17,14 +17,14 @@ function App() {
       <div className="contenedor-cards">
         <Card titulo="Heladera No Frost"
             descripcion="Capacidad 300L, eficiencia energética A, enfriamiento uniforme"
-            imagen=""
+            imagen="https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=400"
             precio={1200000}>
             <button className="btn-comprar">Comprar ahora</button></Card>
 
         <Card 
           titulo="Lavarropas Automático"
           descripcion="Carga frontal, 7kg, centrifugado 1000rpm, 15 programas"
-          imagen=""
+          imagen="https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=400"
           precio={500000}>
           <button className="btn-comprar">Comprar ahora</button></Card>
 

@@ -82,6 +82,13 @@ nav a {
   border-top: 1px solid #eee;
 }
 
+.card-imagen {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
 .contador {
   text-align: center;
   padding: 20px;
