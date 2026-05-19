@@ -36,13 +36,6 @@ function App() {
           <button className="btn-comprar">Compra ahora</button></Card>
 
         <Card 
-          titulo="Cafetera Expresso"
-          descripcion="Máquina automática, vapor integrado, depósito 1.5L"
-          imagen=""
-          precio={150000}>
-          <button className="btn-comprar">Comprar ahora</button></Card>
-
-        <Card 
           titulo="Licuadora Profesional"
           descripcion="3 velocidades, 1.5L, cuchillas de acero inoxidable"
           imagen="https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=400"
