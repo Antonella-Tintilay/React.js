@@ -42,8 +42,8 @@ function App() {
           imagen="https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=400"
           precio={100000}>
           <button className="btn-comprar">Compra ahora</button></Card>
-      <section id="tarea"><TodoApp/></section>
       </div>
+      <section id="tarea"><TodoApp/></section>
       <Footer />
     </>
   )
