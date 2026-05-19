@@ -6,6 +6,7 @@ import Contador from './components/Contador.jsx'
 import './App.css'
 import ContactForm from './components/ContactForm.jsx'
 import ProductList from './components/ProductList.jsx'
+import TodoApp from './components/TodoApp.jsx'
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
           precio={100000}>
           <button className="btn-comprar">Compra ahora</button></Card>
       <ProductList/>
+      <TodoApp/>
 
       </div>
       <Footer />
