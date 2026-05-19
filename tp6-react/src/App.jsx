@@ -31,7 +31,7 @@ function App() {
         <Card 
           titulo="Microondas Digital"
           descripcion="25 litros, 800W, panel táctil, 8 recetas automáticas"
-          imagen=""
+          imagen="https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=400"
           precio={700000}>
           <button className="btn-comprar">Compra ahora</button></Card>
 
@@ -45,7 +45,7 @@ function App() {
         <Card 
           titulo="Licuadora Profesional"
           descripcion="3 velocidades, 1.5L, cuchillas de acero inoxidable"
-          imagen=""
+          imagen="https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=400"
           precio={100000}>
           <button className="btn-comprar">Compra ahora</button></Card>
       <ProductList/>
