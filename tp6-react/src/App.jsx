@@ -12,8 +12,9 @@ function App() {
   return (
     <>
       <Header />
-      <Contador/>
-      <ContactForm/>
+      <section id="Inicio"><Contador/></section>
+      <section id="producto"><ProductList/></section>
+      <section id="contacto"><ContactForm/></section>
       <div className="contenedor-cards">
         <Card titulo="Heladera No Frost"
             descripcion="Capacidad 300L, eficiencia energética A, enfriamiento uniforme"
@@ -41,9 +42,7 @@ function App() {
           imagen="https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=400"
           precio={100000}>
           <button className="btn-comprar">Compra ahora</button></Card>
-      <ProductList/>
-      <TodoApp/>
-
+      <section id="tarea"><TodoApp/></section>
       </div>
       <Footer />
     </>

@@ -5,9 +5,10 @@ function Header () {
         <header>
             <h1>Ventas</h1>
             <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Producto</a>
-                <a href="#">Contacto</a>
+                <a href="#inicio">Inicio</a>
+                <a href="#productos">Producto</a>
+                <a href="#contacto">Contacto</a>
+                <a href="#tarea">Tareas</a>
             </nav>
         </header>
     )
